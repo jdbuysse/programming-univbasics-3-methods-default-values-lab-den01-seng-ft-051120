@@ -3,7 +3,7 @@
 
 def meal_choice(veg1, veg2, protein = "tofu")
   message = ""
-  message +=
-  puts "What a nutritious meal!"
-  puts "A plate of #{protein} with #{veg1} and #{veg2}."
+  message += "What a nutritious meal!\n"
+  message += "A plate of #{protein} with #{veg1} and #{veg2}."
+  message
 end
